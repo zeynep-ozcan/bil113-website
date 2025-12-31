@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "question": "C programlama dilinde bir tam sayı değişkeni tanımlamak için hangi veri tipi kullanılabilir?",
+    "options": ["var", "string", "let", "int"],
+    "correct": 3
+  },
+  {
+    "id": 2,
+    "question": "C'de bir programın çalışmaya başladığı nokta hangi fonksiyondur?",
+    "options": ["main()", "start()", "begin()", "init()"],
+    "correct": 0
+  },
+  {
+    "id": 3,
+    "question": "C'de bir string (karakter dizisi) için hangi veri tipi kullanılabilir?",
+    "options": ["string",  "text", "str" , "char[]"],
+    "correct": 3
+  },
+  {
+    "id": 4,
+    "question": "C'de bir döngü için hangi anahtar kelime kullanılabilir?",
+    "options": ["loop", "for", "repeat", "iterate"],
+    "correct": 1
+  },
+  {
+    "id": 5,
+    "question": "C'de bir koşul kontrolü için hangi ifade kullanılır?",
+    "options": ["if", "check", "when", "condition"],
+    "correct": 0
+  },
+  {
+    "id": 6,
+    "question": "C'de bir fonksiyonun hiçbir şey döndürmeyeceğini belirten anahtar kelime hangisidir?",
+    "options": ["none", "void", "null", "empty"],
+    "correct": 1
+  },
+  {
+    "id": 7,
+    "question": "C'de bir dizinin boyutunu öğrenmek için hangi operatör kullanılır?",
+    "options": ["length", "size", "sizeof", "count"],
+    "correct": 2
+  },
+  {
+    "id": 8,
+    "question": "C'de bir pointer tanımlamak için hangi sembol kullanılır?",
+    "options": ["&", "*", "@", "#"],
+    "correct": 1
+  },
+  {
+    "id": 9,
+    "question": "C'de standart çıktıya yazdırmak için hangi fonksiyon kullanılır?",
+    "options": ["console.log()", "cout", "write()", "printf()"],
+    "correct": 3
+  },
+  {
+    "id": 10,
+    "question": "C'de bir değişkenin memory'deki adresini almak için hangi operatör kullanılır?",
+    "options": ["*", "@", "$", "&"],
+    "correct": 3
+  }
+]
+

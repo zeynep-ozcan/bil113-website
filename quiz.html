@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>C Programlama Quiz - Sorular</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <div class="question-container" id="questionContainer">
+                    <div class="question-number" id="questionNumber"></div>
+                    <div class="question-text" id="questionText"></div>
+                    <div id="optionsContainer"></div>
+                </div>
+
+                <div class="button-container">
+                    <button class="btn btn-secondary" id="prevButton" onclick="previousQuestion()">← Önceki Soru</button>
+                    <button class="btn btn-primary" id="nextButton" onclick="nextQuestion()">Sonraki Soru →</button>
+                    <button class="btn btn-primary hidden" id="finishButton" onclick="finishQuiz()">Quiz'i Bitir</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="quiz.js"></script>
+    </body>
+</html>
+
